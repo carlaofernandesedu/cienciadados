@@ -1,0 +1,59 @@
+Python é uma das linguagens de programação mais populares e em de crescimento mais rápido do mundo
+ (a 3ª mais usado, de acordo com o GitHub em 2019). 
+ É usada para todos os tipos de tarefas, incluindo programação da Web e análise de dados. 
+ Ela surgiu como a linguagem a ser aprendida para aprendizado de máquina. 
+ Essa popularidade significa que os desenvolvedores de Python são muito procurados, 
+  e trabalhos de programação em Python podem ser lucrativos.
+  1990
+
+  A maioria das implementações do Python faz uma compilação parcial dos scripts, 
+  transformando o código-fonte em código de byte que pode ser executado em qualquer plataforma compatível. Isso é feito para melhorar o desempenho para execuções subsequentes do script e ocorre automaticamente. Você também pode gerar uma versão "compilada" do script e distribuir um aplicativo sem fornecer o código-fonte completo.
+
+Implementacoes do Python 
+A mais popular é a implementação de referência (CPython), disponível no site do Python. CPython é comumente usado para desenvolvimento Web, desenvolvimento de aplicativos e scripts. Há pacotes de instalação para Windows e macOS. Os usuários do Linux podem instalar o Python usando gerenciadores de pacotes internos, como apt, yum e Zypper. Também há um playground online em que você pode tentar instruções Python diretamente no site. Por fim, o código-fonte completo está disponível, permitindo que você crie sua própria versão do interpretador.
+
+Anaconda é uma distribuição do Python especializada adaptada para tarefas de programação científicas, como ciência de dados e aprendizado de máquina.
+
+IronPython é uma implementação open-source do Python compilada no runtime .NET.
+
+Jupyter Notebooks é um ambiente de programação interativo baseado na Web compatível com uma variedade de linguagens de programação, incluindo o Python. Os Jupyter Notebooks são amplamente usados em pesquisas e no meio acadêmico para modelagem matemática, aprendizado de máquina, análise estatística e ensino e aprendizado de codificação.
+
+AJUDA 
+
+help(print)
+ou 
+help() 
+e vai digitando
+
+
+Python é uma linguagem dinamicamente tipada, o que significa que o tipo de variável é determinado pelos dados atribuídos a ela
+
+Nomes de variáveis diferenciam maiúsculas de minúsculas e podem usar qualquer letra, número e o caractere de sublinhado (_), no entanto, não podem começar com um número.
+
+
+
+Variaveis e tipo
+x = 1
+print(type(x)) # outputs: <class 'int'>
+
+x = 1.0
+print(type(x)) # outputs: <class 'float'>
+
+x = 'This is a string'
+print(x) # outputs: This is a string
+print(type(x)) # outputs: <class 'str'>
+y = "This is also a string"
+
+Recebendo dados teclado e conversoes 
+
+x = int(input('Enter a number: '))
+print(type(x))
+
+x = 5
+print('The number is ' + str(x))
+
+Uma única instrução do Python pode usar vários operadores + para concatenar várias cadeias de caracteres.
+
+Comentario
+# This is a comment
+# that crosses multiple lines

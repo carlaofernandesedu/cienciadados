@@ -1,0 +1,31 @@
+
+Verificando python  no Windows 
+comando 
+py --version 
+
+Caso precise instalar baixar instalador do site 
+
+
+Verificand python no Linux 
+bash
+python3 --version 
+
+Caso precise instalar sudo apt-get install python3
+
+Extensions do pyhon - digitar python 
+
+Exemplo de Codigo Modo Interativo 
+
+python3 
+print('Hello World')
+exit()
+
+Extensoes em py. Nao usar o python versao 2 
+
+Modo Interativo
+Use o modo interativo do interpretador do Python para escrever e executar uma linha de código do Python de cada vez.
+Às vezes, o modo interativo é chamado de "REPL", que é um acrônimo para "read-eval-print loop". Muitas linguagens de programação têm um REPL que pode ser usado para essa mesma finalidade.
+
+PROXIMA SEQUENCIA 
+https://docs.microsoft.com/pt-br/learn/paths/python-partnership/
+https://docs.microsoft.com/pt-br/learn/paths/python-first-steps/
